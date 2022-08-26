@@ -14,7 +14,7 @@ function App() {
         id="dropdown-menu-align-left"
         //onSelect={handleSelect}
           >
-            <Dropdown.Item tag={<Route path='/OffRtng' component={OffRtng} />} eventKey="Offensive Rating">Offensive Rating</Dropdown.Item>
+            <Dropdown.Item tag={Link} eventKey="Offensive Rating">Offensive Rating</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Defensive Rating">Defensive Rating</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Net Rating">Net Rating</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Pace">Pace</Dropdown.Item>
@@ -23,6 +23,7 @@ function App() {
             <Dropdown.Item tag={Link} eventKey="True Shooting %">Net Rating</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Effective Field Goal %">Effective Field Goal %</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Turnover %">Turnover %</Dropdown.Item>
+            <Dropdown.Item tag={Link} eventKey="Offensive Rebound %">Offensive Rebound %</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Free Throws per Field Goal Attempt">Free Throws per Field Goal Attempt</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Opponent Effective Field Goal %">Opponent Effective Field Goal %</Dropdown.Item>
             <Dropdown.Item tag={Link} eventKey="Salary Cap">Salary Cap</Dropdown.Item>
